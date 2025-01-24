@@ -9,7 +9,7 @@ This is a chrome extension for Instacart. It seamlessly integrates new calculate
 
 ---
 
-## Simple Download Instructions
+## Local Download Instructions
 1. Download the project repo
 2. Navigate to chrome://extensions/
 3. Toggle 'Developer Mode' on
