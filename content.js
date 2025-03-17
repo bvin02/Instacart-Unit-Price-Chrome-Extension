@@ -52,12 +52,14 @@ function runExtension() {
 
     // Observe the <header> element specifically
     const header = document.querySelector('header');
+    console.log("Checks for header in DOM:", document.body.contains(header));
     console.log('Header has loaded.')
     const buttonObserver = new MutationObserver(() => {
         const cartButton = document.querySelector('#commonHeader > div > div > button');
         if (cartButton) {
-            buttonObserver.disconnect(); // Stop observing after the button is found
+            // buttonObserver.disconnect(); // -> Prevented event listener from reattaching if the cart button got replaced
             console.log('Cart Button has loaded.');
+            console.log(cartButton);
             cartButton.addEventListener('click', () => {
                 console.log('Cart Button clicked!');
                 const popupObserver = new MutationObserver((mutations) => {
@@ -78,11 +80,11 @@ function runExtension() {
                     }
                 });
                 popupObserver.observe(document.body, {
-                    childList:true,
+                    childList: true,
                     subtree: true
                 });
             });
-            
+
         } else {
             console.log('Waiting for Cart Button to load...');
         }
