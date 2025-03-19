@@ -3,7 +3,7 @@
     "name": "Instacart Unit Price",
     "version": "1.0",
     "description": "Displays per unit price information for each product in Instacart's cart.",
-    "permissions": ["activeTab", "storage"],
+    "permissions": ["activeTab"],
     "host_permissions": ["https://*.instacart.com/*"],
     "background": {
       "service_worker": "background.js"
