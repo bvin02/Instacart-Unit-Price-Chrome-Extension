@@ -36,4 +36,6 @@ Users can reload the page, or simply close and re open the cart to observe the c
 ---
 
 # Publishing
-This project is scheduled to be published on the Chrome Extension Store soon.
+Launched on [Chrome Web Store](https://chromewebstore.google.com/detail/instacart-unit-price/eoooeedgjbbaaijdhaffbedmambfemof)
+
+<a href="https://www.producthunt.com/posts/chrome-web-store-dd523bc8-3725-47a1-bff5-b7e9ac06fb29?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-chrome&#0045;web&#0045;store&#0045;dd523bc8&#0045;3725&#0045;47a1&#0045;bff5&#0045;b7e9ac06fb29" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=944950&theme=light&t=1742832223608" alt="Chrome&#0032;Web&#0032;Store - Instacart&#0032;unit&#0032;price | Product Hunt" style="width: 187px; height: 40px;" width="250" height="54" /></a>
